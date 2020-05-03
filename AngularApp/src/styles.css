@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
+
+form div.input-field input{
+    padding-left: 15px !important;
+    color: #25a297;
+}
+
+input .ng-invalid.ng-dirty{
+    border-bottom-color: red !important;
+    box-shadow: 0 1px 0 0 red !important;
+}
+
+.input-field>label{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.btn-custom,.btn-custom:hover,.btn-custom:focus{
+    background-color: transparent;
+    font-size: 1.1rem;
+    margin: 0px 5px;
+    border: #fff solid 1px;
+    text-transform: none;
+}
+
+div.card{
+    background-color: #083045;
+    border-radius: 10px;
+}
